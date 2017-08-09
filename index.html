@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <link href="https://fonts.googleapis.com/css?family=Crete+Round|Merriweather" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -36,6 +37,13 @@
     </ul>
  </nav>
 </header>
+
+<div class="click"id="click">
+<button class="showme" id="showme" onclick="setTimeout(popup, 5000)">Show me!</button>
+</div>
+
+<div id="JS"> 
+    
   <!-- LOGO -->
 <section class="google">
     <div>
@@ -56,12 +64,14 @@
     
 <!-- BUTTONS-->
 <section>
-    <div class="buttons">
-        <input class="btn" type="submit" value="Recherche Google">
+   <div class="buttons">
+        <input class="btn" type="submit" value="Recherche Google" onclick="searchGoogle()">
         <input class="btn" type="submit" value="J'ai de la chance">
     </div>
 </section>
-    
+
+</div>
+
 <!--FOOTER-->
 <footer>
     <span class="footer_left">
@@ -76,6 +86,7 @@
     </span>
 </footer>
     
+ <script src="scripts/main.js"></script>
 </body>
 
 </html>
